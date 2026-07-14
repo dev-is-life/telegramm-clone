@@ -202,7 +202,7 @@ const HomePage = () => {
 
   useEffect(() => {
     router.replace("/")
-    socket.current = io('ws://api-telegramm-clone.onrender.com')
+    socket.current = io('https://api-telegramm-clone.onrender.com')
   },[])
 
   useEffect(() => {
