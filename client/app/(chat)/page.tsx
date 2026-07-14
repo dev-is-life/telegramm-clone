@@ -202,7 +202,7 @@ const HomePage = () => {
 
   useEffect(() => {
     router.replace("/")
-    socket.current = io('ws://localhost:4000')
+    socket.current = io('ws://telegramm-clone.vercel.app')
   },[])
 
   useEffect(() => {
